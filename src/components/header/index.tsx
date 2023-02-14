@@ -18,8 +18,8 @@ export const Header = () => {
 
   return (
     <>
-      <nav className="sm:px-4 py-2" style={{ backgroundColor: "#1B2838" }}>
-        <div className="container flex flex-wrap items-center justify-between mx-auto text-white p-5">
+      <nav className="sm:px-4 py-2 bg-steam-bg">
+        <div className="flex flex-wrap items-center justify-between mx-auto text-white p-5">
           <div className="flex gap-5 content-center justify-center ml-2 ">
             <img src={logo} alt="Steam Logo" />
             <div className="hidden sm:flex gap-5 mt-1.5">

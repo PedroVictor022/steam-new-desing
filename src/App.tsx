@@ -1,10 +1,15 @@
+import { Banner } from "./components/banner";
 import { Header } from "./components/header";
+import { Home } from "./components/home";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <Home>
+        <Banner />
+      </Home>
+    </>
   );
 }
 
