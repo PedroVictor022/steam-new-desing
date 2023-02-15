@@ -26,7 +26,7 @@ export const SubBanner = () => {
         <p className="p-2 bg-blue-600 w-fit rounded-md font-bold">WITH MORE PLAYERS</p>
         <div className="grid grid-cols-4 gap-9 bg-steam-home relative mt-7">
           <div>
-            <CategorieGame src={Fifa} alt="logo" desc="Sports" />
+            <CategorieGame src={Fifa} alt="logo" desc="Sports"/>
           </div>
           <div>
             <CategorieGame src={Farcry} alt="logo" desc="FPS" />
